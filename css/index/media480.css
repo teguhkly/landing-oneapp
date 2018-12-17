@@ -1,0 +1,284 @@
+@charset "utf-8";
+
+/*===============================================================================================================   
+
+Author      : Muhammad Febriansyah
+
+Built       : Desember 2016
+
+=============================================================================================================== */
+
+
+
+@media all and (max-width:767px){
+
+    
+
+    /* header
+
+    ================================================================================================================= */
+    .overflowHidden {
+        overflow: hidden;
+    }
+    .close_popup{
+        display: inline-block;
+    }
+    /* middle homepage
+
+    ================================================================================================================= */
+    .logo{
+        max-width: 30px;
+    }
+    #banner_home{
+        padding-top:105px;
+    }
+    .images_kotak1 {
+        position: absolute;
+        right: 30px;
+        top: -20px;
+        z-index: 1;
+        max-width: 95px;
+    }
+    #menu_desktop{
+        display: none;
+    }
+    #mainHeader{
+        padding-top: 15px;
+    }
+    #triggerVisit{
+        background-image: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow:none;
+        box-shadow: none;
+        margin:0px 0 0  0;
+        padding: 0;
+    }
+    #triggerVisit span{
+        display: none;
+    }
+    #triggerVisit img{
+        max-width: 34px;
+    }
+    .left_banner, .right_banner{
+        width: 100%;
+        padding: 0 20px;
+    }
+    #banner_home,#download_home{
+        background: none;
+    }
+    .content_left_banner h1,.contet_right_download h1{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .content_left_banner .bx-wrapper .bx-pager{
+        top: -15px;
+    }
+    .content_left_banner .bx-wrapper{
+        margin-bottom: 0;
+    }
+    .right_banner{
+        background: url(../../img/index/banner_mobile_home.png) #fff right center no-repeat;
+        background-size: 255px;
+    }
+    #download_home .right_banner{
+        padding-bottom: 0px;
+        background: none;
+    }
+    #download_home .left_banner{
+        background: url(../../img/index/bg_footer_mobile.png) #fff left center no-repeat;
+    }
+    #banner_home .wrapper,#download_home .wrapper{
+        padding: 0px;
+    }
+    .sub_banner{
+        font-size: 14px;
+    }
+    .bt-purple{
+        padding: 15px;
+    }
+    .title_section h3{
+        font-size: 25px;
+    }
+    .popup_menu{
+        width: 100%;
+        position: fixed;
+        height: 100%;
+        top: 0;
+        left: 0;
+        border-radius: 0;
+        padding-top: 60px;
+    }
+    .overflow_menu{
+        overflow-y:scroll;
+        height: 100%;
+    }
+    .menu_list1,.menu_list2{
+        width: 93%;
+        margin-bottom: 20px;
+    }
+    .main_menu1 li{
+        width: 100%;
+        display: inline-block;
+    }
+    .title_menu{
+        font-size: 18px;
+    }
+    .main_menu1 a img,
+    .main_menu2 a img{
+        max-width: 42px;
+    }
+    .main_menu1 a span,
+    .main_menu2 a span{
+        font-size: 16px;
+    }
+    .main_menu2 li{
+        width: 100%;
+        padding: 15px 0;
+    }
+    .left_box{
+        width: 47%;
+        padding-right: 10px;
+    }
+    .caption_unggulan{
+        margin-top: 0;
+        padding-bottom: 10px;
+    }
+    .caption_unggulan h3{
+        font-size: 20px;
+    }
+    .unggulanSLider{
+        padding: 0;
+    }
+    .slider_offside{
+        margin: 0;
+    }
+    .slider_offside .bx-wrapper{
+        margin-bottom: 20px;
+    }
+    .content_slider{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .row-why .cols3{
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    #banner_home .owl-dots{
+        top: -20px;
+        left: -4px;
+    }
+    .sliderFlip  .owl-controls{
+        display: none;
+    }
+    #unggulan_home{
+        padding-bottom: 40px;
+    }
+    .caption_img{
+        padding: 10px;
+    }
+    .caption_img h4{
+        font-size: 20px;
+    }
+    .overlay_bg{
+        padding:30px 20px 20px 20px;
+    }
+    .caption_img{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .overlay_bg p{
+        font-size: 12px;
+    }
+    .rows_bt .bt-purple{
+        width: 149px;
+        height: 37px;
+        font-family: Cera;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 0;
+        line-height: 37px;
+    }
+
+    #banner_home .right_banner{
+        text-align: center;
+    }
+    #banner_home .right_banner .banner_section{
+        width: 80%;
+        display: inline-block;
+        position: relative;
+    }
+    .row-list.row-why .owl-stage-outer .owl-stage:first-child{
+        padding-left: 17px !important;
+    }
+    .caption_unggulan p{
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .caption_unggulan h3{
+        font-size: 14px;
+    }
+    .box_gradient{
+        padding:15px 0 15px 0;
+    }
+    .row_bt a.icon_carousel{
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .box_gradient{
+        border-radius: 10px;
+    }
+    .thumb_images{
+        border-radius: 10px;
+    }
+    .thumb_images .images_inside{
+        margin-bottom: -3px;
+    }
+    #kenapa_home{
+        padding-bottom: 0;
+    }
+    .owl-theme .owl-dots .owl-dot span{
+        width: 5px;
+        height: 5px;
+    }
+    .list_download a{
+        margin-right: 0;
+    }
+    .close_popup{
+        max-width: 34px;
+    }
+    .unggulanSLider.owl-theme .owl-nav [class*=owl-]{
+        background: none;
+        max-width: 42px;
+    }
+    .unggulanSLider.owl-theme .owl-controls .owl-prev{
+        margin-left: -22px;
+    }
+    .unggulanSLider.owl-theme .owl-controls .owl-next{
+        margin-right: -22px;
+    }
+	/* middle contentpage
+
+    ================================================================================================================= */
+    
+    /* footer
+    ================================================================================================================= */
+    
+	
+}
+
+/* Landscape */
+@media only screen 
+      and (min-device-width: 320px) 
+      and (max-device-width: 767px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) {
+        .content-popup {
+            width: 445px;
+        }
+        
+}
